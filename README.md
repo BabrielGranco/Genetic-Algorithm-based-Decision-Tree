@@ -1,4 +1,8 @@
-# GAbDT
+#TODO
+- TRADUZIR OS CÓDIGOS COM OS TESTES ESTATÍSTICOS (4)
+- TRADUZIR OS CÓDIGOS COM OS TESTES DE DESENVOLVIMENTO (3)
+- EXTRAIR OS TRECHOS DO ARTIGO QUE FALA SOBRE A GAbDT e TRADUZIR PARA ADICIONAR AQUI
+
 This project is a Decision Tree (DT) that utilizes a genetic algorithm to select the best partitions to be made in the formation of the tree. The Genetic Algorithm (GA) is used to minimize a fitness function that calculates the majority error, or another desired evaluation metric, generated in the data from a specific split. In this way, it attempts to find the best premise to recursively separate the individuals until the decision tree is formed. It is interesting to note that the fitness function can be used to maximize or minimize different metrics that would function as a measure of the impurity of the formed sets.
 
 Thus, each individual of the GA will be composed of a premise. The premise is a set of an attribute, an operator, and a threshold (['att', 'op', 'ths']), which will be used to split our training set at each node. The algorithm begins with a population of n premises and evolves over the generations by choosing the rules that minimize the majority error. To do this, it applies each of the premises and calculates the majority class error in both of the generated groups. Finally, it calculates the weighted sum of the resulting values based on the size of the sets, this being the fitness of each solution.
