@@ -1,7 +1,6 @@
 #TODO
 - TRADUZIR OS CÓDIGOS COM OS TESTES ESTATÍSTICOS (4)
 - TRADUZIR OS CÓDIGOS COM OS TESTES DE DESENVOLVIMENTO (3)
-- EXTRAIR OS TRECHOS DO ARTIGO QUE FALA SOBRE A GAbDT e TRADUZIR PARA ADICIONAR AQUI
 
 This project is a Decision Tree (DT) that utilizes a genetic algorithm to select the best partitions to be made in the formation of the tree. The Genetic Algorithm (GA) is used to minimize a fitness function that calculates the majority error, or another desired evaluation metric, generated in the data from a specific split. In this way, it attempts to find the best premise to recursively separate the individuals until the decision tree is formed. It is interesting to note that the fitness function can be used to maximize or minimize different metrics that would function as a measure of the impurity of the formed sets.
 
